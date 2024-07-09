@@ -15,14 +15,14 @@ public class Main {
         numeroFinal= sc.nextInt();
 
         for(int i =1; i <= numeroFinal;i++){
-            if(ehprimo(i)==true){
-                primos.add(i);
+            if(ehprimo(i)==true){  // retorno do método que verifica se é primo
+                primos.add(i); 
             }
         }
         System.out.println(primos);
 
         }
-
+// método verifica se o numero é primo
         private static boolean ehprimo(int n){
         int contador = 0;
         for(int i =1; i <=n; i++){
